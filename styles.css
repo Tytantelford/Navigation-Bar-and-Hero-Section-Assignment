@@ -1,27 +1,22 @@
 .navbar-links {
   list-style-type: none;
-  display: flex;
+  display: relative;
   padding: 0px;
   margin: 0px;
 }
 
-.navbar-links li {
-  margin-right: 20px;
-}
-
-.apple-logo-img img {
+.apple-logo-img-links img {
   width: 15px;
   margin-right: 23px;
   margin-left: 10px;
+  display: inline-block;
 }
 
-.navbar {
-  display: flex;
-}
-
-a {
+.navbar-links a {
+  margin-right: 20px;
   text-decoration: none;
   color: black;
+  display: inline-block;
 }
 
 a:visited {
@@ -30,35 +25,42 @@ a:visited {
 
 .hero-paragraph {
   font-size: 50px;
-  margin-left: 10px;
+  margin-left: 25px;
   color: gray;
 }
+
 .hero-paragraph span {
   color: black;
 }
 
-.hero-section-images {
-  flex-direction: column;
-  display: flex;
-}
-
 .mac-img {
-  width: 130px;
+  width: 200px;
   margin-left: 20px;
 }
 
+.mac-a-tag {
+  position: absolute;
+  margin-left: -95px;
+  margin-top: 141px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.here-section-iphone {
+  width: 200px;
+}
+
 .iphone-image {
-  width: 130px;
-  margin-left: 200px;
+  width: 200px;
+  margin-left: 280px;
   top: -125px;
   position: relative;
 }
 
-.mac-a-tag {
-  margin-left: 80px;
-}
-
 .iphone-a-tag {
-  margin-left: 245px;
-  margin-top: -142px;
+  position: absolute;
+  font-size: 18px;
+  margin-left: 360px;
+  margin-top: -125px;
+  text-decoration: none;
 }
